@@ -1,4 +1,4 @@
-package YearlyExamination;
+package yearlyExamination;
 
 /**
  * 矩阵翻硬币
