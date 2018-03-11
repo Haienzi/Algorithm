@@ -1,2 +1,2 @@
 # Algorithm
-Blue Bridge Cup Practice
+#### Blue Bridge Cup Java Algorithm Exercise
