@@ -1,5 +1,9 @@
 package basic_exercise;
-
+/***
+* 特殊的回文串
+* @author mqh
+*
+*/
 import java.util.Scanner;
 
 public class T2_PalindromeS {
@@ -9,6 +13,7 @@ public class T2_PalindromeS {
 		Scanner reader = new Scanner(System.in);
 		int n = reader.nextInt();
 		
+		//先计算5位数
 	    for (int i = 10000; i < 100000; i++)  
 	    {  
 	        int a = i / 10000;  
@@ -19,6 +24,7 @@ public class T2_PalindromeS {
 	        if (a == e && b == d && a+b+c+d+e == n)  
 	        	System.out.println(i); 
 	    }  
+	    //然后计算6位数的
 	    for (int i = 100000; i < 1000000; i++)  
 	    {  
 	        int a = i / 100000;  

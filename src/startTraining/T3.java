@@ -1,8 +1,11 @@
-package StartTraining;
+package startTraining;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
-public class T4 {
+//序列求和
+public class T3 {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner reader = new Scanner(System.in);
@@ -12,4 +15,5 @@ public class T4 {
 		
 	}
     
+
 }

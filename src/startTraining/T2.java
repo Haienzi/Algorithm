@@ -1,4 +1,4 @@
-package StartTraining;
+package startTraining;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
