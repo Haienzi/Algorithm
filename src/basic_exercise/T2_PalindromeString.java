@@ -41,4 +41,5 @@ public class T2_PalindromeString {
 			System.out.println(aIntegers.get(i));
 		}
 	}
+	
 }
