@@ -1,7 +1,11 @@
 package sort;
 
 import java.util.Scanner;
-
+/**
+ * 二叉树遍历
+ * @author hppc
+ *
+ */
 public class A {
 
 	private static char[] midChars,lateChars,beforeChars;

@@ -1,4 +1,4 @@
-package sort;
+package dataStructure;
 /**
  * 
  * @author mqh
@@ -12,12 +12,13 @@ package sort;
  * 最差情况o(n)=n2;
  *
  */
-public class BubbleSort {
+public class SortMethodTen {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
+	//冒泡排序
 	public void bubbleSort(int[] a,int n)
 	{
 		boolean flag = true;
@@ -27,21 +28,28 @@ public class BubbleSort {
 			flag = false;
 			for(int j= 0;j<n-i-1;j++)
 			{
-				if(a[j]>a[j+1])
+				if(a[j]>a[j+1]) //每次都将大值放在后面
 				{
-					swap(a, i, j);
+					swap(a, j, j+1);
 					flag = true;
 				}
 			}
 		}
 	}
-	
+	//交换两个元素 如果交换前a[i]>a[j]交换后结果a[i]<a[j] 
 	private void swap(int[] a,int i,int j)
 	{
 		int temp = a[j];
 		a[j] = a[i];
 		a[i] = a[j];
 	}
+	//选择排序
+	/**
+	 * 表现最稳定的排序算法
+	 * 无论什么数据进去都是o(n2)的时间复杂度
+	 * 原理：首先在未排序序列中找到最小元素，存放到排序序列的起始位置，然后从剩余位置继续找最小的元素
+	 * @param array
+	 */
 	public void selectionSort(int[] array)
 	{
 		 long start = System.nanoTime();  
