@@ -7,7 +7,7 @@ Return the partitioning index, i.e the first index i nums[i] >= k.
 Notice
 You should do really partition in array nums instead of just counting the numbers of integers smaller than k.
 If all elements in nums are smaller than k, then return nums.length
- * @author hppc
+ * @author mqh
  * 
  * 快速排序的基本思想
  * 1、先从数组中取出一个数作为基数
