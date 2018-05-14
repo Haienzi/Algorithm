@@ -1,8 +1,8 @@
 package arrayTest;
 /**
  * Given an array nums of integers and an int k, partition the array (i.e move the elements in "nums") such that:
-All elements < k are moved to the left
-All elements >= k are moved to the right
+ *All elements < k are moved to the left
+ *All elements >= k are moved to the right
 Return the partitioning index, i.e the first index i nums[i] >= k.
 Notice
 You should do really partition in array nums instead of just counting the numbers of integers smaller than k.

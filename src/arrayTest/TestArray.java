@@ -15,6 +15,12 @@ public class TestArray {
        SubArray subArray = new SubArray();
        ArrayList<Integer> arrayList = subArray.subArraySum(arr1);
        System.out.println("获取数组中和为0的子数组: "+"["+arrayList.get(0)+","+arrayList.get(arrayList.size()-1)+"]");
+       
+       int[] twoSumArray = {4,7,5,3,2,7};
+       TwoSum twoSum = new TwoSum();
+       int target = 9;
+       int[] result = twoSum.getTwoSum(target, twoSumArray);
+       System.out.println("获取数组中和为9的两个元素组成的子数组: "+"["+result[0]+","+result[1]+"]");
 	}
     
 }
