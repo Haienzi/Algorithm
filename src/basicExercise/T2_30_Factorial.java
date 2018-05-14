@@ -4,7 +4,7 @@
  * 1*2*3*4*5*....*1000的位数 = log1 + log2 + log3 +....+log1000
  * 有2568位 确定数组的长度大概是
  */
-package basic_exercise;
+package basicExercise;
 
 import java.util.Arrays;
 import java.util.Scanner;

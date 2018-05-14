@@ -2,7 +2,7 @@
  * 完美的代价
  * @ author mqh
  */
-package basic_exercise;
+package basicExercise;
 
 import java.util.Scanner;
 

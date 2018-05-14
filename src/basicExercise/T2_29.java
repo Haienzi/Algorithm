@@ -1,7 +1,7 @@
 /***
  * 高精度加法
  */
-package basic_exercise;
+package basicExercise;
 
 import java.util.Scanner;
 

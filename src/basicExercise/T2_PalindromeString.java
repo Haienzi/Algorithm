@@ -1,5 +1,5 @@
 
-package basic_exercise;
+package basicExercise;
 
 import java.awt.image.SinglePixelPackedSampleModel;
 import java.util.ArrayList;

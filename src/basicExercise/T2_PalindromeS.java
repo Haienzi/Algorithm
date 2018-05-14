@@ -1,4 +1,4 @@
-package basic_exercise;
+package basicExercise;
 /***
 * 特殊的回文串
 * @author mqh

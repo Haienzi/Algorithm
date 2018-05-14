@@ -1,7 +1,7 @@
 /**
  * 数列特性
  */
-package basic_exercise;
+package basicExercise;
 
 import java.util.Arrays;
 import java.util.Scanner;

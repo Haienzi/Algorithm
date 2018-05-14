@@ -1,4 +1,4 @@
-package basic_exercise;
+package basicExercise;
 
 /**
  * 01字符串

@@ -1,4 +1,4 @@
-package basic_exercise;
+package basicExercise;
 
 /**
  * 字母图形
