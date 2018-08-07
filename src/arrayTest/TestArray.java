@@ -21,6 +21,20 @@ public class TestArray {
        int target = 9;
        int[] result = twoSum.getTwoSum(target, twoSumArray);
        System.out.println("获取数组中和为9的两个元素组成的子数组: "+"["+result[0]+","+result[1]+"]");
+       
+       TestArray testArray = new TestArray();
+       InnerClass innerClass = testArray.getInnerClass();
+       System.out.println(innerClass.getClassName());
+       
+	}
+	
+	public InnerClass getInnerClass() {
+		return new InnerClass();
+	}
+	class InnerClass{
+		public String getClassName() {
+			return this.getClass().getName().toString();
+		}
 	}
     
 }
