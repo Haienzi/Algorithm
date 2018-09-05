@@ -41,11 +41,11 @@ public class PartitionArray {
 		int start = 0;
 		int end = arr.length-1;
 		while (start<=end) {
-			while(start<=end && arr[start]<k)//如果左边的数据小于k值 则一直向左递归
+			while(start<=end && arr[start]<k)//如果左边的数据小于k值 则一直向右递归
 			{
 				start++;
 			}
-			while(start<=end && arr[start]>=k)//如果右边的数据大于k值 则一直向左递归
+			while(start<=end && arr[end]>=k)//如果右边的数据大于k值 则一直向左递归
 			{
 				end--;
 			}
